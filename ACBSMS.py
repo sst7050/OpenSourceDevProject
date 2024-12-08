@@ -8,7 +8,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
 # 1. CSV 파일 불러오기
 suicide_rate_usa_df = pd.read_csv('suicide_rate_USA.csv')
-social_media_impact_df = pd.read_csv('social-media-impact-on-suicide-rates.csv')
+social_media_impact_df = pd.read_csv('social_media_impact_on_suicide_rates.csv')
 
 # 2. 데이터 전처리
 # 자살률 데이터에서 Nation이 'USA'인 행을 선택하고, Total 열만 추출
